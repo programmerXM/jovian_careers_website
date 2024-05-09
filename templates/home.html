@@ -5,9 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jovian Careers</title>
+  <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-  <h1>Jovian Careers</h1>
+  <div id="container">
+    <h1>Jovian Careers</h1>
+    <img id = "banner" src = "{{url_for('static', filename = 'images/banner.jpg')}}" alt = "banner">
+    <h2>About Jovian</h2>
+    <p>Lorem ipsum dolor sit amet. Non sunt adipisci sed commodi 
+      deserunt aut esse officiis. Vel suscipit quisquam ut culpa 
+      soluta non illo culpa in explicabo alias et voluptates deleniti 
+      ut repellat perspiciatis et nihil facere.</p>
+
+    <h2>Job Openings</h2>
+    <p>TODO - Show the jobs here</p>
+    <div class = "button">
+      <button>Contact Us</button>
+  </div>
   
 </body>
 </html>
